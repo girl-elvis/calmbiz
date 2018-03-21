@@ -1,0 +1,42 @@
+.uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6, h1, h2, h3, h4, h5, h6 {
+	font-family:$header-font;
+}
+
+
+
+///////// UK CARDS
+
+.uk-card{
+	box-shadow:none;
+	padding-top: 2em;
+}
+
+ .uk-card-header{
+ 	.uk-card-default &{
+ 			border-bottom: 1px solid $brand-primary;
+ 		}
+	padding: 0 20px;
+	margin: 0 20px;
+}
+
+.uk-card-secondary {
+    background: $brand-text;
+}
+
+
+.uk-text-primary{
+	color:$brand-primary !important;
+}
+.uk-background-secondary{
+	background-color: $brand-text;
+}
+
+.uk-background-muted {
+    background-color:$brand-pale;
+}
+
+
+.uk-grid-divider > :not(.uk-first-column)::before {
+    border-left: 1px solid $brand-primary;
+}
+

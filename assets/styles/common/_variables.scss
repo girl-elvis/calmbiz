@@ -1,0 +1,35 @@
+@font-face {
+ font-family: 'Pressura';
+  src: url('../fonts/GT-Pressura-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/GT-Pressura-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/GT-Pressura-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/GT-Pressura-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/GT-Pressura-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/GT-Pressura-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+         font-weight: bold;
+     }
+
+
+$text-font:  Helvetica, Arial, Sans Serif;
+$header-font: Pressura, $text-font;
+
+$brand-primary: #E6007E;
+$brand-pale: #ECF7FC;
+$brand-text:#00334B;
+$brand-background: #FFFFFF;
+
+
+$global-link-color: $brand-primary;
+.uk-link, a {
+	color:$global-link-color;
+	}
+	
+$brand-black: #111;
+
+
+
+html {  
+	color:$brand-text;
+	font-family:$text-font;
+}
+

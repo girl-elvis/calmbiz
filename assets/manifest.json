@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/uikit.js",
+        "scripts/uikit-icons.js",
+        "scripts/main.js"
+      ],
+      "main": true
+    },
+    "main.css": {
+      "files": [
+        "styles/uikit.css",
+        "styles/main.scss"
+      ],
+      "main": true
+    },
+    "customizer.js": {
+      "files": [
+        "scripts/customizer.js"
+      ]
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    }
+  },
+  "config": {
+    "devUrl": "http://bizdev.thecalmzone.net"
+  }
+}

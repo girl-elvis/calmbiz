@@ -1,0 +1,61 @@
+ // ==========  Mobile First Method  ==========
+
+//  $breakpoint-small: 640px !default;
+// $breakpoint-medium: 960px !default;
+// $breakpoint-large: 1200px !default;
+// $breakpoint-xlarge: 1600px !default;
+
+ 
+	/* Custom, iPhone Retina */
+
+ 	// @media only screen and (min-width : 320px){ 
+ 
+ 	// }
+ 
+	// /*  Small Devices, Phones */
+	// @media only screen and (min-width : 480px){ 
+	
+	// }
+
+/* small Devices, Vertical or mini Tablets */
+@media only screen and (min-width : 640px){
+
+	
+ }
+
+
+
+/* medium Devices, Tablets */
+@media only screen and (min-width : 960px){
+	 header.banner{ 
+		padding-bottom: 5px;
+	}
+	 .site-footer{ 
+		padding-top: 40px;
+		margin-top: 40px;
+	}
+	#main {
+		min-height: 725px;
+		margin-top: 30px;
+	}
+	.uk-heading-hero {
+	    font-size: 7rem;
+	}
+ }
+
+ 	
+ 	
+/* large Devices, Desktops */
+@media only screen and (min-width : 1200px){ 
+// $global-gutter
+
+}
+
+
+ 
+// /* XLarge Devices, Wide Screens */
+// @media only screen and (min-width : 1600px){ 
+
+
+
+//  }

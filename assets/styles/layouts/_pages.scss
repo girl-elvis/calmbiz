@@ -1,0 +1,78 @@
+.home .page-header {display: none;}
+
+
+
+.icon-svg{
+	display: block;
+  width: 100px;
+  height: 82px;
+  background: url(images/icons.svg);
+  background-size: 100px 82px;
+}
+
+.svg1{fill:$brand-pale;}
+
+.icon-grid li:hover {
+	color:$brand-primary; text-decoration:none;
+	.svg1{fill:white;}
+	.icon-title{color:white; text-decoration:none; }
+
+}
+.uk-card-secondary .rollover{
+	margin-top: 125px;
+	max-width: 300px;
+	margin-left: -103px;
+	color:$brand-text;
+
+	h4{
+		color:$brand-text !important;
+		margin-bottom: 0;
+		margin-top: 0;
+		a {color: $brand-primary;}
+	}
+}
+
+a .icon-helpline .rollover {
+	visibility: hidden;
+}
+a:hover .icon-helpline .rollover {
+	visibility: visibil;
+}
+.rollover:after, .rollover:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.rollover:before {
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #fff;
+	border-width: 11px;
+	margin-left: -11px;
+}
+
+
+#Layer_1 {
+    padding: 10px;
+}
+.icon-grid .uk-grid-margin{margin-top: 5px;}
+
+.cc-icon{
+	background-image: url('images/pdf.svg');
+}
+
+
+.dlm-downloads{
+	padding-left:0;
+	list-style:none;
+	svg {
+		width: 50px;
+		padding: 10px;
+
+	}
+}

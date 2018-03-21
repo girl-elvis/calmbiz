@@ -1,0 +1,36 @@
+// // Search form
+// .search-form {
+//   @extend .form-inline;
+// }
+// .search-form label {
+//   font-weight: normal;
+//   @extend .form-group;
+// }
+// .search-form .search-field {
+//   @extend .form-control;
+// }
+// .search-form .search-submit {
+//   @extend .btn;
+//   @extend .btn-secondary;
+// }
+
+.uk-navbar-right .button {
+    font-size: xx-large;
+    line-height: 2em;
+    background-color: white;
+   border-bottom: 2px solid $brand-primary;
+    padding: 0 0.5em;
+    font-family: $header-font;
+}
+
+.uk-button-default{
+	background-color: $brand-text;
+	font-family: $header-font;
+	color: $brand-background;
+}
+
+
+.password-form .uk-input{
+	width: 50%;
+	margin-right: 1em;
+}

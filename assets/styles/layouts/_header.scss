@@ -1,0 +1,51 @@
+.uk-navbar-nav > li:hover > a, .uk-navbar-nav > li > a.uk-open, .uk-navbar-nav > li > a:focus,
+.uk-card-default {
+    color: $brand-text;
+}
+
+header.banner {
+	    nav {
+	    	padding-top: 30px;
+	    	padding-bottom: 30px;
+	    	border-bottom: solid #E6007E;
+	    	.uk-logo{
+	    		padding-left:0;
+	    		.logo{
+			    	width: 150px;
+			    }
+
+	    	}
+
+	    }
+	
+		padding-top: 30px;
+		padding-bottom: 30px;
+
+}
+
+.uk-offcanvas-bar{
+	padding-top: 60px;
+}
+
+
+.uk-navbar-nav > li > a {
+    color: $brand-text;
+    font-family: $header-font;
+
+}
+
+
+
+#cclogo { width: 150px;}
+.uk-logo:hover .cls-3 {
+    fill: $brand-text;
+}
+
+
+ul.nav > li:not(:last-child) {
+	border-right: 1px solid $brand-primary;
+}
+
+.uk-navbar-nav > li > a {
+	font-size:2em;
+}
