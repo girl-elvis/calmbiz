@@ -4,43 +4,48 @@
 }
 
 header.banner {
-	    nav {
-	    	padding-top: 30px;
-	    	padding-bottom: 30px;
-	    	border-bottom: solid #E6007E;
-	    	.uk-logo{
-	    		padding-left:0;
-	    		.logo{
-			    	width: 150px;
-			    }
-
-	    	}
-
-	    }
-	
-		padding-top: 30px;
-		padding-bottom: 30px;
-
+	nav {
+    	padding-top: 30px;
+    	padding-bottom: 30px;
+    	// border-bottom: solid #E6007E;
+    	.uk-logo{
+    		padding-left:0;
+    		.logo{
+		    	width: 100px;
+		    }
+    	}
+	}
+	padding-top: 0;
+	padding-bottom: 30px;
+	.pm{
+		padding: 0.2em 0.5em;
+		font-family: $header-font;
+		text-transform: uppercase;
+		z-index: 20;
+		a{ 
+			color: $brand-text;
+			&:hover{ 
+				color: $brand-primary;
+				text-decoration:none;
+			}
+		}
+	}
 }
+
 
 .uk-offcanvas-bar{
 	padding-top: 60px;
 }
 
-
 .uk-navbar-nav > li > a {
     color: $brand-text;
     font-family: $header-font;
-
 }
 
-
-
-#cclogo { width: 150px;}
+#cclogo { width: 100px;}
 .uk-logo:hover .cls-3 {
     fill: $brand-text;
 }
-
 
 ul.nav > li:not(:last-child) {
 	border-right: 1px solid $brand-primary;

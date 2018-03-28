@@ -21,6 +21,10 @@
    border-bottom: 2px solid $brand-primary;
     padding: 0 0.5em;
     font-family: $header-font;
+    &:hover{ 
+					color: $brand-primary;
+					text-decoration:none;
+				}
 }
 
 .uk-button-default{

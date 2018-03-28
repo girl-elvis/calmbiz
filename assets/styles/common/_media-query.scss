@@ -28,7 +28,7 @@
 /* medium Devices, Tablets */
 @media only screen and (min-width : 960px){
 	 header.banner{ 
-		padding-bottom: 5px;
+		padding-bottom: 0;
 	}
 	 .site-footer{ 
 		padding-top: 40px;
@@ -36,11 +36,26 @@
 	}
 	#main {
 		min-height: 725px;
-		margin-top: 30px;
+		margin-top: 0;
 	}
 	.uk-heading-hero {
 	    font-size: 7rem;
 	}
+
+	.hero-grid {
+	
+		> .uk-first-column:not(.clearboxside){
+				border-right: 1px solid $brand-primary;
+
+			}
+
+		> div:not(.clearboxbottom){
+		    border-bottom:  1px solid $brand-primary;
+		}
+		
+	}
+	
+
  }
 
  	

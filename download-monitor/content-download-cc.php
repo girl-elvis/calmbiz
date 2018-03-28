@@ -21,7 +21,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 		 <?php
 		  echo file_get_contents($template_url . '/dist/images/pdf.svg' );
-		  echo $dlm_download->get_version()->get_filename(); ?>
+		 $dlm_download->the_title();
+		  ?>
 
 	</a>
 		</div>

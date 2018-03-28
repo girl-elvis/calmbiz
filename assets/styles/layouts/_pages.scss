@@ -13,24 +13,42 @@
 .svg1{fill:$brand-pale;}
 
 .icon-grid li:hover {
-	color:$brand-primary; text-decoration:none;
-	.svg1{fill:white;}
-	.icon-title{color:white; text-decoration:none; }
+	// color:$brand-primary; text-decoration:none;
+	// .svg1{fill:white;}
+	// .icon-title{color:white; text-decoration:none; }
 
 }
-.uk-card-secondary .rollover{
-	margin-top: 125px;
-	max-width: 300px;
-	margin-left: -103px;
-	color:$brand-text;
-
-	h4{
-		color:$brand-text !important;
+.uk-card-secondary {	
 		margin-bottom: 0;
 		margin-top: 0;
 		a {color: $brand-primary;}
+	
+}
+
+.hero-grid {
+	border-top: solid 1px $brand-primary;
+	.split div:nth-child(1){
+		border-bottom: solid 1px $brand-primary;
+	}
+
+}
+
+.uk-grid-divider {
+
+    margin-left: 0;
+
+}
+.download-grid {
+	border-top: solid 1px $brand-primary;
+	> div:not(.uk-grid-margin) {
+		border-bottom: solid 1px $brand-primary;
+	}
+	div:last-child.uk-grid-margin{
+		border-right: solid 1px $brand-primary;
 	}
 }
+
+
 
 a .icon-helpline .rollover {
 	visibility: hidden;
@@ -58,7 +76,7 @@ a:hover .icon-helpline .rollover {
 
 
 #Layer_1 {
-    padding: 10px;
+ 
 }
 .icon-grid .uk-grid-margin{margin-top: 5px;}
 

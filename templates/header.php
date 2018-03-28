@@ -1,10 +1,8 @@
 <header class="banner ">
-  <div class="container uk-container">
+  <div class="container uk-container uk-position-relative">
 
-<?php if(is_page('main')){
-  echo '<div class="uk-float-right pm"> <a href="/pm-portal/">PM</a></div>';
-
-
+<?php if(is_page(array('main', 'get-help'))){
+  echo '<div class="uk-float-right pm uk-background-muted uk-position-absolute uk-position-top-right">  <a href="/pm-portal/">Project Managers</a></div>';
 }
 ?>
 

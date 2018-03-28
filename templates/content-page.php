@@ -4,34 +4,20 @@ if ( ! post_password_required() ) {
 $slogan =  get_post_meta( get_the_ID(), 'hero-left',true);
 $text =  get_post_meta( get_the_ID(), 'hero-right',true);
 
-if($slogan):
  ?>
-<div class="uk-grid-match uk-grid-divider hero-grid" uk-grid>
-    <div class="uk-width-2-3@m">
-        <div class="uk-card uk-card-default "><h1 class="uk-heading-hero uk-text-uppercase uk-text-primary"><?php echo $slogan; ?></h1></div>
-    </div>
-    <div class="uk-width-1-3@m">
-        <div class="uk-card uk-card-default "><h2 class="uk-text-uppercase uk-text-primary"><?php echo $text; ?></h2></div>
-    </div>
-</div>
+<div class="uk-grid-match hero-grid uk-child-width-1-2@s uk-grid-collapse uk-grid " uk-grid>
+  
 
-<?php 
-endif;
-?>
-
-<div class="uk-grid-match content-grid uk-child-width-1-2@s" uk-grid>
-    <div class="">
-        <div class="uk-card uk-card-default uk-background-muted"><div class="uk-card-body"><?php the_content(); ?></div></div>
+    <div class="clearboxside clearboxbottom">
+        <div class="uk-card uk-card-default "><div class="uk-card-body"><h1 class="uk-text-primary"><?php  if($slogan) echo $slogan ;?></h1><?php the_content(); ?></div></div>
     </div>
-    <div class="">
-        <div class="uk-card uk-card-default "><h2 class="uk-text-uppercase uk-text-primary"> pic here </h2></div>
-    </div>
+   
 </div>
 
 
 
 
-<div class="content-grid uk-child-width-1-2@s" uk-grid>
+<div class="content-grid uk-child-width-auto uk-grid-divider uk-grid-collapse download-grid" uk-grid>
 
 <?php
 
@@ -48,9 +34,9 @@ endif;
 
 
         <div class="">
-            <div class="uk-card uk-card-default uk-background-muted">
-                <h2 class="uk-card-header uk-text-uppercase uk-text-primary"><?php echo ($header); ?></h2>
-                <div class="uk-card-body"><?php echo ($content); ?></div>
+            <div class="uk-card uk-card-default uk-padding">
+                
+                <h3 class="uk-text-uppercase uk-text-primary"><?php echo ($header); ?></h3><?php echo ($content); ?>
             </div>
         </div>
 

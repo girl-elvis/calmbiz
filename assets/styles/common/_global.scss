@@ -1,5 +1,6 @@
 .uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6, h1, h2, h3, h4, h5, h6 {
 	font-family:$header-font;
+	text-transform: uppercase;
 }
 
 
@@ -37,6 +38,15 @@
 
 
 .uk-grid-divider > :not(.uk-first-column)::before {
-    border-left: 1px solid $brand-primary;
+    border-color: $brand-primary;
 }
 
+.uk-grid-divider > * {
+	padding-left: 2px;
+}
+
+.uk-grid-divider > :not(.uk-first-column)::before {
+
+    left: 1px;
+
+}
