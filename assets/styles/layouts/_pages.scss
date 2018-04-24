@@ -2,6 +2,7 @@
 
 
 
+
 .icon-svg{
 	display: block;
   width: 100px;
@@ -78,7 +79,17 @@ a:hover .icon-helpline .rollover {
 #Layer_1 {
  
 }
-.icon-grid .uk-grid-margin{margin-top: 5px;}
+.icon-grid {
+	border-top: 1px solid $brand-pale;
+	padding-top:5px;
+	.uk-grid-margin{
+		margin-top: 0;
+	}
+	& > li { padding:15px;}
+	& > li:nth-of-type(-n+3){border-bottom: 1px solid $brand-pale;}
+
+}
+
 
 .cc-icon{
 	background-image: url('images/pdf.svg');

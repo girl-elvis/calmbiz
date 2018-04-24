@@ -20,6 +20,17 @@
 /* small Devices, Vertical or mini Tablets */
 @media only screen and (min-width : 640px){
 
+	.icon-grid {
+		border-top: 1px solid $brand-pale;
+		padding-top:5px;
+		.uk-grid-margin{
+			margin-top: 0;
+		}
+		& > li:nth-of-type(-n+3) {border-bottom: 0;}
+		& > li:nth-of-type(-n+2){border-bottom: 1px solid $brand-pale;}
+		& > li.uk-first-column {border-right: 1px solid $brand-pale;}
+	}
+
 	
  }
 
@@ -54,7 +65,7 @@
 		}
 		
 	}
-	.uk-margin-top-m{margin-top: 30px;}
+	.uk-margin-top-m{margin-top: 30px}
 	
 
  }
