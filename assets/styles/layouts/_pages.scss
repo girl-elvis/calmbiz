@@ -27,7 +27,7 @@
 
 .hero-grid {
 	border-top: solid 1px $brand-primary;
-	.split div:nth-child(1){
+	.split div:nth-child(1) div{
 		border-bottom: solid 1px $brand-primary;
 	}
 
